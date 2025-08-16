@@ -1,0 +1,5 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-5">
+  @for (gif of gifs(); track gif) {
+    <app-gift-list-item [imageUrl] = "gif.url"></app-gift-list-item>
+  }
+</div>
